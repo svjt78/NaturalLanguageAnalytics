@@ -1,0 +1,39 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS Finder files
+.DS_Store
+
+# Docker/Postgres data volume
+pgdata/
+postgres_data/
+
+# Streamlit cache
+.streamlit/
+
+# Logs and test reports
+*.log
+htmlcov/
+.coverage
+.cache/
+
+# Build and distribution folders
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# SQLite databases
+*.sqlite3

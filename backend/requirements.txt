@@ -1,0 +1,28 @@
+fastapi==0.101.0
+uvicorn[standard]==0.23.1
+
+# Async SQLAlchemy support
+sqlalchemy[asyncio]==2.0.38
+asyncpg==0.29.0
+
+# Data libraries (must match ABI, Python 3.10-compatible)
+numpy==1.24.4
+pandas==2.1.2
+openpyxl==3.1.2
+
+# Project-specific
+langgraph==0.2.1
+pydantic==1.10.12
+python-dotenv==1.0.0
+trio==0.22.0
+alembic==1.11.1
+
+psycopg2-binary==2.9.6
+
+python-multipart==0.0.6
+
+# OpenAI SDK needed by your agents
+openai==0.27.10
+
+# Dev tooling
+watchdog==3.0.0
