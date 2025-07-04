@@ -1,6 +1,5 @@
-Here is a polished `README.md` for your **Natural Language Analytics** GitHub project:
 
----
+
 
 ```markdown
 # 🧠 Natural Language Analytics
